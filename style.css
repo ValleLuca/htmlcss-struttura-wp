@@ -22,10 +22,33 @@
 .head {
     background-color: #abcfe7;
     height: 75px;
+    margin-bottom: 15px;
 }
 
-.clearfix::after {
+.head::after {
     content: "";
     clear: both;
     display: table;
+}
+
+.ls, .center, .lr {
+    background-color: #abcfe7;
+    height: 295px;
+}
+
+.ls {
+    width: 20%;
+    float: left;
+}
+
+.center {
+    width: 50%;
+    float: left;
+    margin-left: 10px;
+}
+
+.lr {
+    width: 20%;
+    float: left;
+    margin-left: 10px;
 }

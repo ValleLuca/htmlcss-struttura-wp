@@ -1,0 +1,31 @@
+.titolo, .firstext, .container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.titolo {
+    height: 100px;
+    background-color: #e479e7; 
+}
+
+.firstext {
+    height: 300px;
+    background-color: #e1d67a; 
+}
+
+.container {
+    height: 400px;
+    background-color: #0186fe; 
+}
+
+.head {
+    background-color: #abcfe7;
+    height: 75px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

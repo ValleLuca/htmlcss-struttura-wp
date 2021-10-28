@@ -1,4 +1,4 @@
-.titolo, .firstext, .container {
+.titolo, .firstext {
     width: 80%;
     margin: auto;
     margin-bottom: 20px;
@@ -16,7 +16,10 @@
 
 .container {
     height: 400px;
-    background-color: #0186fe; 
+    background-color: #0186fe;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
 }
 
 .head {
@@ -25,7 +28,7 @@
     margin-bottom: 15px;
 }
 
-.head::after {
+.container::after {
     content: "";
     clear: both;
     display: table;
@@ -42,13 +45,19 @@
 }
 
 .center {
-    width: 50%;
+    width: 58%;
     float: left;
-    margin-left: 10px;
+    margin: 0px 1% 0px 1%;
 }
 
 .lr {
     width: 20%;
     float: left;
-    margin-left: 10px;
+}
+
+.finale {
+    background-color: #8801fe;
+    height: 50px;
+    width: 80%;
+    margin: auto;
 }
